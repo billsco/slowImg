@@ -25,6 +25,7 @@ $CHUNK_SZ=128;
 if(!$handle) {
   header( "HTTP/1.0 404 Not Found");
   echo "File " . $fileName . " not found";
+  die();
 }
 else {
 
